@@ -157,11 +157,6 @@ A ferramenta cria vários arquivos:
    python3 transcribe_and_translate_dual_vtt.py video.mp4 apenas_original --no-translate
    ```
 
-4. Configuração ideal para vídeos longos com RTX 4060 Ti:
-   ```bash
-   python3 transcribe_and_translate_dual_vtt.py video_longo.mp4 legendas --model small --verbose
-   ```
-
 ## Suporte
 
 Esta ferramenta foi projetada para funcionar com vários formatos de vídeo e idiomas. Se você encontrar algum problema, tente executar com a opção `--verbose` para obter mais informações sobre o que pode estar errado.
