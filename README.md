@@ -114,10 +114,9 @@ A ferramenta cria vários arquivos:
    - Útil se você quiser processar os dados posteriormente
    - Contém informações detalhadas sobre cada segmento
 
-## Dicas para Melhores Resultados
+## Algumas dicas
 
 1. Use áudio de boa qualidade em seus vídeos
-2. Para vídeos mais longos, use pelo menos o modelo 'small'
 3. Se seu vídeo tem múltiplos idiomas, use a opção `--refine-per-segment`
 4. Para projetos importantes, use a opção `--verbose` para ver o que está acontecendo
 5. Se você tiver uma GPU com mais de 8GB de VRAM, experimente o modelo 'large' para melhor precisão
@@ -127,13 +126,11 @@ A ferramenta cria vários arquivos:
 1. Se você receber um erro sobre ffmpeg:
    - Certifique-se de que o ffmpeg está instalado no seu sistema
    - No Ubuntu/Debian: `sudo apt install ffmpeg`
-   - No Mac com Homebrew: `brew install ffmpeg`
 
 2. Se o script estiver lento:
    - Tente um modelo menor (tiny ou base)
    - Verifique se sua GPU tem VRAM suficiente para o modelo escolhido
    - Considere dividir vídeos longos em partes menores
-   - Para RTX 4060 Ti (8GB), evite o modelo 'large'
 
 3. Se a qualidade da transcrição estiver ruim:
    - Use um modelo maior (medium se tiver 8GB VRAM, large se tiver mais)
